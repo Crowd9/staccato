@@ -279,7 +279,7 @@ module Staccato::V4
 
     private
 
-    def body(batch_size:)
+    def body(batch_size: 25)
       JSON.generate(as_json(batch_size: batch_size))
     end
 
